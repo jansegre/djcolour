@@ -1,0 +1,25 @@
+*.py[cod]
+
+# Packages
+*.eggs
+*.egg-info
+
+*.~
+.installed.cfg
+bin
+develop-eggs
+dist
+downloads
+parts
+build
+.ropeproject
+.tox
+__pycache__
+
+.project
+.pydevproject
+.settings
+.idea
+.venv
+.cache
+docs/_build

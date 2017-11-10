@@ -2,6 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='djcolour',
+    description='Automatically use `colour.Color` in Python, `django.db.models.CharField` on the database, and `<input type="color">` on the forms.',
+    url='https://github.com/jansegre/djcolour',
     version='0.1.0',
     packages=find_packages(),
     install_requires=[
@@ -9,6 +11,7 @@ setup(
     ],
     author='Jan Segre',
     author_email='jan@segre.in',
+    license='MIT',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Environment :: Web Environment',

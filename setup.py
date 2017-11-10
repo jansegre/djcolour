@@ -4,7 +4,7 @@ setup(
     name='djcolour',
     description='Automatically use `colour.Color` in Python, `django.db.models.CharField` on the database, and `<input type="color">` on the forms.',
     url='https://github.com/jansegre/djcolour',
-    version='0.1.0',
+    version='0.2.0',
     packages=find_packages(),
     install_requires=[
         'colour>=0.1.4,<0.2',

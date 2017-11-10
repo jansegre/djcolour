@@ -13,7 +13,7 @@ def parse_color(color_string):
         raise ValidationError(_('\'%s\' is not recognized as a valid color') % (color_string,))
 
 
-class ColorField(models.Field):
+class ColorField(models.CharField):
 
     description = "Represent a color using colour.Color"
 

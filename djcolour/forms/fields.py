@@ -15,3 +15,6 @@ class ColorInput(widgets.Input):
 
 class ColorField(forms.Field):
     widget = ColorInput
+
+    def __init__(self, *args, max_length=None, **kwargs):
+        super().__init__(*args, **kwargs)

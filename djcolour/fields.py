@@ -27,6 +27,11 @@ class ColorField(models.CharField):
             return value
         return parse_color(value)
 
+    def get_prep_value(self, value):
+        value = super(ColorField, self).get_prep_value(value)
+        py_value = self.to_python(value)
+        return str(py_value)
+
     def to_python(self, value):
         if isinstance(value, Color):
             return value
